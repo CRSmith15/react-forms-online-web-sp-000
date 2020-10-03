@@ -21,7 +21,7 @@ export default class ParentComponent extends Component {
 
   render() {
     return (
-      <Form 
+      <Form
         formData={this.state}
         handleFirstNameChange={this.handleFirstNameChange}
         handleLastNameChange={this.handleLastNameChange}
